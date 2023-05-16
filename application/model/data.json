@@ -1,0 +1,33 @@
+{
+    "pageTextData": [
+		{
+			"x3dModelTitle": "Coke X3D Model",
+			"x3dCreationMethod": "This X3D model of the coke can has been created in 3ds Max, exported to VRML97 and converted, using the view3DScene application, to X3D for display online.",
+			"title": "History of ",
+			"subTitle": "Atlanta Beginnings",		
+			"description": "It was 1886, and in New York Harbour, workers were constructing the Statue of Liberty. Eight hundred miles away, another great American symbol was about to be unveiled. Like many people who change history, John Pemberton, an Atlanta pharmacist, was inspired by simple curiosity. One afternoon, he stirred up a fragrant, caramel-coloured liquid and, when it was done, he carried it a few doors down to Jacobs' Pharmacy. Here, the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink was something special. So Jacobs' Pharmacy put it on sale for five cents (about 3p) a glass."
+		},
+		{
+			"x3dModelTitle": "Sprite X3D Model",
+			"x3dCreationMethod": "This X3D model of the sprite bottle has been created in 3ds Max, exported to VRML97 and converted, using the view3DScene application, to X3D for display online.",
+			"title": "History of ",
+			"subTitle": "First introduced in 1961",		
+			"description": "Crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of Coca Cola's no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+		},
+        {
+			"x3dModelTitle": "Dr Pepper X3D Model",
+			"x3dCreationMethod": "This X3D model of the pepper cup has been created in 3ds Max, exported to VRML97 and converted, using the view3DScene application, to X3D for display online.",
+			"title": "History of ",
+			"subTitle": "23 fruit flavours",		
+			"description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since."
+		},
+		{
+			"galleryTitle": "Gallery",
+			"galleryDescription": "Gallery showing realistic images of the models. This piece of text was fetched from the data.json file, to demonstate reading a JSON file and inputting it into the webpage. To find out more information about how I built this site, please visit our About page."
+		},
+		{
+			"AdditionalTitle": "How I Made This Site",
+			"AdditionalSubtitle": "I have used several techniques to source, collate and store the data within the site, to demonstrate the different techniques we used within the labs.. The text content for this main image is stored within a table, which is done by adding apiCreateTable to the uri, which calls the relavent method within the controller. This then calls the dbCreateTable method within the model and this creates the table. You then need to add apiInsertData to the uri, which will insert the data (the text content) into the table and now, when you visit index.php (which triggers the main.php view), it will be populated with the text content for the main image. The main image on the Home page is achieved by using a CSS file and a unique ID for the div within the php file. The table is also used for storing the content and images of the cards below the main image, which are then injected into the HTML code using a loop to refernce each of the table entries. <Br><Br> The navigation buttons on the Model page which swap the models and content, utulise JQuery to hide and show the correct content. The description on the model page is saved within a JSON file, which is then retrieved using the getJson() function from JQuery wihin a JavaScript file. This is then reference by a unique ID. The photos witin the gallery are sourced within a directory which is searched using php to find all files with the correct file endings. These file names and addresses, then get passed to the JavaScript function that initiated the call to the hook.php file and are formatted correctly. This is then referenced by ID, within the html code of main.php. <Br><Br> I used 3DS Max to create the initial models and then imported them into Blender, by saving the models as .fbx files and importing them as this is a file type both software support. I did this because I was trying to find a way to export the files in x3dom format, but then found out it is easier to use the View3DScenes program. I edited some of the content within the x3dom files, to make the referencing easier for the interactive functionality (using JavaScript) implementation."
+		}
+	]
+}

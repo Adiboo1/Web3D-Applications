@@ -1,0 +1,10 @@
+#gallery {
+    width:50px
+}
+
+.gallery .img-thumbnail {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    height: auto;
+}
